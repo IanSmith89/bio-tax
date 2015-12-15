@@ -43,65 +43,65 @@ var Animal = function() {
   return self;
 };
 
-var Protozoa = function() {
-  var self = new Animal();
-  self.phylum = 'Protozoa';
-  return self;
-};
+    var Protozoa = function() {
+      var self = new Animal();
+      self.phylum = 'Protozoa';
+      return self;
+    };
 
-var Porifera = function() {
-  var self = new Animal();
-  self.phylum = 'Porifera';
-  return self;
-};
+    var Porifera = function() {
+      var self = new Animal();
+      self.phylum = 'Porifera';
+      return self;
+    };
 
-var Collenterata = function() {
-  var self = new Animal();
-  self.phylum = 'Collenterata';
-  return self;
-};
+    var Collenterata = function() {
+      var self = new Animal();
+      self.phylum = 'Collenterata';
+      return self;
+    };
 
-var Platyhelminthes = function() {
-  var self = new Animal();
-  self.phylum = 'Platyhelminthes';
-  return self;
-};
+    var Platyhelminthes = function() {
+      var self = new Animal();
+      self.phylum = 'Platyhelminthes';
+      return self;
+    };
 
-var Aschelminthes = function() {
-  var self = new Animal();
-  self.phylum = 'Aschelminthes';
-  return self;
-};
+    var Aschelminthes = function() {
+      var self = new Animal();
+      self.phylum = 'Aschelminthes';
+      return self;
+    };
 
-var Annelida = function() {
-  var self = new Animal();
-  self.phylum = 'Annelida';
-  return self;
-};
+    var Annelida = function() {
+      var self = new Animal();
+      self.phylum = 'Annelida';
+      return self;
+    };
 
-var Arthropoda = function() {
-  var self = new Animal();
-  self.phylum = 'Arthropoda';
-  return self;
-};
+    var Arthropoda = function() {
+      var self = new Animal();
+      self.phylum = 'Arthropoda';
+      return self;
+    };
 
-var Molluska = function() {
-  var self = new Animal();
-  self.phylum = 'Molluska';
-  return self;
-};
+    var Molluska = function() {
+      var self = new Animal();
+      self.phylum = 'Molluska';
+      return self;
+    };
 
-var Echinodermata = function() {
-  var self = new Animal();
-  self.phylum = 'Echinodermata';
-  return self;
-};
+    var Echinodermata = function() {
+      var self = new Animal();
+      self.phylum = 'Echinodermata';
+      return self;
+    };
 
-var Chordata = function() {
-  var self = new Animal();
-  self.phylum = 'Chordata';
-  return self;
-};
+    var Chordata = function() {
+      var self = new Animal();
+      self.phylum = 'Chordata';
+      return self;
+    };
 
 var Fungi = function() {
   var self = new Eukaryote();
