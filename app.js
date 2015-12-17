@@ -103,6 +103,39 @@ var Animal = function() {
       return self;
     };
 
+        var Mammalia = function() {
+          var self = new Chordata();
+          self.class = 'Mammalia';
+          return self;
+        };
+
+            var Primates = function() {
+              var self = new Mammalia();
+              self.order = 'Primates';
+              return self;
+            };
+
+                var Hominidae = function() {
+                  var self = new Primates();
+                  self.family = 'Hominidae';
+                  return self;
+                };
+
+                    var Homo = function() {
+                      var self = new Hominidae();
+                      self.genus = 'Homo';
+                      return self;
+                    };
+
+                        var Hsapiens = function() {
+                          var self = new Homo();
+                          self.species = 'H. sapiens';
+                          return self;
+                        };
+
+                            var me = new Hsapiens();
+                            console.log(me);
+
 var Fungi = function() {
   var self = new Eukaryote();
   self.kingdom = 'Fungi';
