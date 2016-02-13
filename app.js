@@ -4,16 +4,16 @@ var LivingOrganism = function() {
     commonName: 'Life',
     foundOnEarth: true,
     replicatorMolecule: 'DNA',
-    domain: 'N/A',
-    kingdom: 'N/A',
-    phylum: 'N/A',
-    class: 'N/A',
-    order: 'N/A',
-    family: 'N/A',
-    genus: 'N/A',
-    species: 'N/A',
-    subspecies: 'N/A',
-    description: 'N/A'
+    domain: '',
+    kingdom: '',
+    phylum: '',
+    class: '',
+    order: '',
+    family: '',
+    genus: '',
+    species: '',
+    subspecies: '',
+    description: ''
   };
 };
 
